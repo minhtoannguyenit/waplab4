@@ -1,0 +1,128 @@
+.container {
+    width:100%;
+    margin:auto;
+    padding-top: 40px;
+}
+.myHeader {
+    width:100%;
+    margin:auto;
+    min-height: 60px;
+    border: 1px solid #86a293;
+    background-color: #abcec2;
+}
+
+.myHeader div:first-child {
+    float: left;
+}
+.myHeader div:last-child {
+    float: left;
+    margin: 20px;
+}
+
+.workshop {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+
+}
+
+.textUnderline {
+    font-weight: lighter;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.container .myBody{
+    width:100%;
+    margin:auto;
+    height: 100%;
+    border: 1px solid #86a293;
+}
+.container .myFooter{
+    width:100%;
+    margin:auto;
+}
+.myBody .inLeft {
+    width:50%;
+    float:left;
+    margin-right: 20px;
+}
+
+.required {
+    color: red;
+    font-size: 15px;
+}
+
+.myBody .inRight {
+    width: 45%;
+    float: right;
+    margin-right: 20px;
+}
+
+.inLeft > div {
+   padding: 20px 15px 15px 5px;
+}
+.inRight > div {
+    padding: 20px 15px 15px 5px;
+ }
+
+input {
+    width: 60%;
+    float: right;
+}
+textarea {
+    width: 60.5%;
+    float: right;
+}
+
+select {
+    width: 61.5%;
+    float: right;
+}
+
+input[type="checkbox"] {
+    float: none;
+    width: 20px !important;
+}
+
+.payment-mode {
+    align-items: unset;
+}
+.payment-checkbox {
+    width: 34%;
+}
+
+#paymentCheckBox {
+    font-weight: normal;
+}
+
+.payment-mode-form {
+    display: flex;
+    flex-direction: row;
+    margin: 16px 0;
+    align-items: center;
+}
+
+button {
+    width: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #7aa897;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.btnFooter {
+    margin: auto;
+    text-align:center;
+    background-color: rgb(227 227 227);
+    padding: 0 0px 10px 0;
+}
+

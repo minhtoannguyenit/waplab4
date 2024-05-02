@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main" style="width: 1268px; margin: auto">
+        <div class="container">
+            <div class="myHeader">
+                <div class="workshop">Workshop Registration</div>
+                <div>
+                    <nav>
+                        <select style="width: 105px;margin-top: 4px; font-size: 12px; background-color: #abcec2;" name="select" id="">
+                            <option value="1">More Actions</option>
+                            <option value="2">Add Something</option>
+                            <option value="3">Do Something</option>
+                        </select>
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="myBody">
+                <div>
+                    <h4 class="textUnderline">Register now while seats are available!</h4>
+                </div>
+                <form class="myForm" action="#">
+                    <div style="width: 100%; height: 550px;">
+                        <div class="inLeft">
+                            <div>
+                                <label for="fname">
+                                    First Name: <span class="required">*</span>
+                                    <input type="text" name="fistname" id="fname" required>
+                                </label>
+                            </div>
+                            <div>
+                                <label for="lname">
+                                    Last Name: <span class="required">*</span>
+                                    <input type="text" name="lastname" id="lname" required>
+                                </label>
+                            </div>
+                            <div>
+                                <label for="company">
+                                    Company Institution: <span class="required">*</span>
+                                    <input type="text" name="companyInstitution" id="company" required>
+                                </label>
+                            </div>
+                            <div style="min-height: 60px;">
+                                <label for="address">
+                                    Address: <span class="required">*</span>
+                                    <textarea id="w3review" name="address" rows="4" cols="50" required></textarea>
+                                </label>
+                            </div>
+                            <div>
+                                <label for="city">
+                                    City:
+                                    <input type="text" name="city" id="city">
+                                </label>
+                            </div>
+                            <div>
+                                <label for="state">
+                                    State / Province / Region:
+                                    <select name="state" id="state">
+                                        <option value="1">-Select-</option>
+                                        <option value="1">State 1</option>
+                                        <option value="2">State 2</option>
+                                        <option value="3">State 3</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <div>
+                                <label for="country">
+                                    Country:
+                                    <select name="state" id="state">
+                                        <option value="1">-Select-</option>
+                                        <option value="1">United States</option>
+                                        <option value="2">Vietnam</option>
+                                        <option value="3">Columbia</option>
+                                        <option value="3">Frane</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <div>
+                                <label for="email">
+                                    Email: <span class="required">*</span>
+                                    <input type="email" name="email" id="email" required>
+                                </label>
+                            </div>
+                            <div>
+                                <label for="phone">
+                                    Phone Number: <span class="required">*</span>
+                                    <input type="phone" name="phone" id="phone" required>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="inRight">
+                            <h4 class="textUnderline">Lunch:</h4>
+                            <div>
+                                <label for="meal">
+                                    Meal Preference:
+                                    <select name="state" id="meal">
+                                        <option value="1">Vegetarian</option>
+                                        <option value="2">Sushi</option>
+                                        <option value="3">Fruit</option>
+                                        <option value="3">Other</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <h4 class="textUnderline">Payment Details:</h4>
+                             <!-- Add checkbox for payment mode: Credit Card, Debit Card, Net Banking, Cheque -->
+                             <div class="payment-mode-form payment-mode">
+                                <label class="payment-checkbox">Payment Mode</label>
+                                <div class="checkbox-list">
+                                    <div>
+                                        <input type="checkbox" id="cash" name="cash" value="cash">
+                                        <label id="paymentCheckBox" for="cash"> Cash</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="cheque" name="demandCraft" value="cheque">
+                                        <label id="paymentCheckBox" for="cheque"> Cheque</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="demandCraft" name="demand_craft" value="demand_craft">
+                                        <label id="paymentCheckBox" for="demandCraft"> Demand Craft</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="checkNo">
+                                    DD / Cheque No:
+                                    <input type="text" name="checkNo" id="checkNo">
+                                </label>
+                            </div>
+                            <div>
+                                <label for="drawn_on">
+                                    Drawn on (Bank Name):
+                                    <input type="text" name="drawn_on" id="drawn_on">
+                                </label>
+                            </div>
+                            <div>
+                                <label for="payable_at">
+                                    Payable at:
+                                    <input type="text" name="payable_at" id="payable_at">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div  class="mySubmition btnFooter">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                </form>
+            </div>
+            <div class="myFooter" style="padding-top: 50px;">
+                <span>
+                    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fminhtoannguyenit.github.io%2Fwaplab2%2F">
+                        <img src="./html_checker.png" alt="HTML Checker"> 
+                    </a>
+                </span>
+                <span>
+                    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fminhtoannguyenit.github.io%2Fwaplab2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                        <img src="./css_checker.png" alt="CSS Checker">
+                    </a>
+                </span>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
