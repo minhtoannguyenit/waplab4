@@ -13,7 +13,7 @@
                 <div class="workshop">Workshop Registration</div>
                 <div>
                     <nav>
-                        <select style="width: 105px;margin-top: 4px; font-size: 12px; background-color: #abcec2;" name="select" id="">
+                        <select style="width: 105px;margin-top: 4px; font-size: 12px; background-color: #abcec2;" name="select">
                             <option value="1">More Actions</option>
                             <option value="2">Add Something</option>
                             <option value="3">Do Something</option>
@@ -21,7 +21,6 @@
                     </nav>
                 </div>
             </div>
-            
             <div class="myBody">
                 <div>
                     <h4 class="textUnderline">Register now while seats are available!</h4>
@@ -50,7 +49,7 @@
                             <div style="min-height: 60px;">
                                 <label for="address">
                                     Address: <span class="required">*</span>
-                                    <textarea id="w3review" name="address" rows="4" cols="50" required></textarea>
+                                    <textarea id="address" name="address" rows="4" cols="50" required></textarea>
                                 </label>
                             </div>
                             <div>
@@ -73,7 +72,7 @@
                             <div>
                                 <label for="country">
                                     Country:
-                                    <select name="state" id="state">
+                                    <select name="country" id="country">
                                         <option value="1">-Select-</option>
                                         <option value="1">United States</option>
                                         <option value="2">Vietnam</option>
@@ -91,7 +90,7 @@
                             <div>
                                 <label for="phone">
                                     Phone Number: <span class="required">*</span>
-                                    <input type="phone" name="phone" id="phone" required>
+                                    <input type="text" name="phone" id="phone" required>
                                 </label>
                             </div>
                         </div>
@@ -115,15 +114,15 @@
                                 <div class="checkbox-list">
                                     <div>
                                         <input type="checkbox" id="cash" name="cash" value="cash">
-                                        <label id="paymentCheckBox" for="cash"> Cash</label>
+                                        <label class="paymentCheckBox" for="cash"> Cash</label>
                                     </div>
                                     <div>
                                         <input type="checkbox" id="cheque" name="demandCraft" value="cheque">
-                                        <label id="paymentCheckBox" for="cheque"> Cheque</label>
+                                        <label class="paymentCheckBox" for="cheque"> Cheque</label>
                                     </div>
                                     <div>
                                         <input type="checkbox" id="demandCraft" name="demand_craft" value="demand_craft">
-                                        <label id="paymentCheckBox" for="demandCraft"> Demand Craft</label>
+                                        <label class="paymentCheckBox" for="demandCraft"> Demand Craft</label>
                                     </div>
                                 </div>
                             </div>
@@ -167,9 +166,7 @@
                     </a>
                 </span>
             </div>
-            </div>
         </div>
     </div>
-    
 </body>
 </html>
