@@ -97,7 +97,7 @@ input[type="checkbox"] {
     width: 34%;
 }
 
-#paymentCheckBox {
+.paymentCheckBox {
     font-weight: normal;
 }
 
